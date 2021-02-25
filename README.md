@@ -6,5 +6,3 @@ Followed this article: https://dev.to/alrobilliard/deploying-net-core-to-heroku-
 4) Pushed container image to heroku container registry: heroku container:push -a heroku-netcore-test-app web
 5) Released container image (released to "prod", basically): heroku container:release -a heroku-netcore-test-app web
 6) Profit! http://heroku-netcore-test-app.herokuapp.com/
-
-But then I totally fucked up and did a git reset --hard because I was trying to unstage stuff like an idiot. So.. that happened.
